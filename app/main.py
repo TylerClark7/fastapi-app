@@ -10,7 +10,7 @@ from . config import settings
 
 app = FastAPI()  # app is conventional
  
-origins = ["https://www.google.com"]
+origins = ["https://www.google.com"] #Use "https://www." the www is important
 
 app.add_middleware(
     CORSMiddleware,
