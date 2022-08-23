@@ -28,6 +28,6 @@ app.include_router(votes.router)
 
 @app.get("/")
 def root():
-    return {"message": "welcome to my frikn api"}
+    return {"message": "welcome to my frikn api!!!"}
 
     # Hey ur aight, breakday. Play safe
